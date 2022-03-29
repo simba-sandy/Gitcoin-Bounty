@@ -1,0 +1,68 @@
+**About Algorand:**
+
+Algorand is a blockchain network built for decentralization, scalability, and security. It runs on a “Pure proof of stake” consensus. The transaction throughput of Algorand is on par with large payment and financial networks. Algorand Vritual Machine (AVM) aims to make blockchain development more accessible.
+**Technical description:**
+The consensus protocol of Algorand has 2 key features which make it tolerate an arbitrary number of malicious users: 1. The users who certify each block are secretly and individually selected. The adversary does not know which users he needs to corrupt. 2. By the time the adversary realizes the users selected, the selected users would have already certified a block. A new set of users are selected for every block.
+
+Implementation of ‘Pure- Proof of Stake’ consensus: A new block is added in 2 phases:
+Phase I: A single token is randomly selected and its owner proposes the next block
+Phase II: 1000 tokens are randomly selected to be part of a committee that approves the block proposed by the first user.
+
+Each user runs a lottery algorithm to determine whether any of his/her tokens get selected. Algorand also has a consensus mechanism for protocol upgrades -proposed changes are posted on the blockchain, the community votes to accept or reject the change using a consensus protocol, the community agrees on a block where the change happens and switches to the new protocol simultaneously.
+
+**Algorand advantages:**
+1.	Scalability: Selecting the user for validation takes microseconds. Once selected, the users need to send 1000 short, immediately complied messages
+2.	Security: The validation committee for each block is selected by a lottery. As long as the blockchain has a majority of fair nodes, it cannot be corrupted.
+3. Decentralization: Every node has an equal chance of participating in the network.
+4. In addition to the advantage of scalability, security, and decentralization, Algorand has an extremely low probability of forking by design- only one block is allowed to be added to the blockchain at a time after crossing the required threshold of committee votes. The low forking probability makes the network extremely attractive for enterprise use cases.
+5. Algorand is a carbon-negative network by partnering with CO2 emissions and traceability solutions. Algorand and ClimateTrade have partnered to implement a sustainability oracle to calculate Algorand’s on-chain carbon footprint for each epoch. A set of smart contracts will then lock an equivalent amount of carbon credits in a treasury. “Algorand is experiencing accelerated adoption and network expansion. As this period of hypergrowth continues, we find it crucial to operate at a carbon-negative level. Indeed, sustainable growth is way better than growth,” said Silvio Micali, Founder of Algorand.
+
+**Vision for Algorand Enterprise, Sri Lanka**
+
+All existing businesses across sectors have potential applications in the blockchain infrastructure and a number of new ways of transactions are possible giving rise to a new world of opportunities. Here are a few possible sectors:
+
+**Finance and banking**
+
+With its transaction throughput on par with the existing global financial networks, Algorand can build a global decentralized financial infrastructure. Algorand has a partnership with Koibanx to build blockchain infrastructure for the government of El-Salvador. Algorand ecosystem has applications such as decentralized exchanges, distributed finance, buy now pay later, asset securitization for lending, and insurance. Less than 20% of the population has adopted internet banking in Sri Lanka. Blockchain applications have an inherent advantage to scale adoption as compared to web 2.0 applications. This presents a unique opportunity to digitize the majority of the population to Decentralized Finance directly.
+
+**Marketplaces**
+
+Decentralized marketplaces, both physical and digital, create new value exchange mechanisms such as NFTs possible. Before the internet, eCommerce business transactions were unimaginable to most people. Similarly, web 3 provides unique value creation models possible. Decentralized marketplaces can not only organize fragmented businesses but also have an unbeatable competitive advantage compared to the existing marketplaces. In addition to this, unlike the business models seen with eCommerce so far blockchain-powered marketplaces are non-predatory- value accrues to small businesses and the founders/builders at the same time without the existing businesses being displaced.
+Sustainability and tourism:
+Algorand’s vision for sustainable growth is in line with Sri Lanka’s vision of sustainable development. In June 2021, Sri Lanka acted on its commitment to sustainable development by launching 100% organic farming program. The program, however, had to be rolled back due to execution challenges. Algorand’s ecosystem has implemented solutions to improve supply chain transparency and efficiency1. These solutions make the execution of organic farming efficient and sustainable. Sri Lanka is a country blessed with natural beauty which attracts tourists to the island nation. Algorand’s extensive network of climate tech solutions2 provides a massive opportunity for the Sri Lankan tourism industry to scale eco-tourism, environment restoration, and regeneration initiatives. 
+
+ **Supply chain**
+ 
+Supply chain applications are possible for international trade, hyperlocal trade, decentralized logistics, trade finance. With blockchain provenance, local Sri Lankan markets can be as competitive as MNCs both locally and globally. 
+IT industry
+Sri Lanka has well-qualified developer talent. The IT industry is ranked in the top 50 in the world. This presents an opportunity for the IT firms and developers to take charge of building blockchain applications for the people of Sri Lanka and the globe.
+**Academia**
+
+Algorand has deep academic roots with the founder himself being a professor at the Massachusetts Institute of Technology. Algorand currently has over 22 University partners through its Global University Program for technical research. Sri Lankan Universities can partner with Algorand and together come up with innovations for social good. Reach out to us: https://algorand.foundation/ecosystem/education/university-program.
+
+**Partner program**
+
+Algorand works with established consulting firms, implementation partners, system integrators, and developer firms for small to large blockchain projects. The program is designed to help firms adopt blockchain and take the solutions to the globe.
+
+**Gaming**
+
+Play-to-earn gaming has proven to be a source of employment during the pandemic in South East Asia. The model is here to stay and is a huge opportunity for both game builders and players.
+
+**Healthcare**
+
+Algorand blockchain provides a highly reliable infrastructure with user privacy for building healthcare applications. Algorand has partnered with Vitalpass for Columbia’s official vaccination passport. The passport can also connect with other similar applications globally. Vaccination passports on blockchain are more reliable than the web 2 passports as the data cannot be erased or manipulated. Vitalpass is part of a Commontrust Network, a global network of multiple enterprises for digitizing patient data using open, interoperable, and verifiable standards. MPay is another healthcare partner implementing blockchain-based solutions to reduce healthcare costs in Bermuda. 
+
+**How to partner:**
+
+If you share our excitement about taking blockchain solutions for a better financial and sustainable infrastructure for the people of Sri Lanka, reach out to us at:
+https://www.algorand.com/contact/enterprise.
+
+_Links:_
+
+1.	https://www.algorand.com/resources/ecosystem-announcements/italia-olivicola-leverages-algorand-to-improve-supply-chain-transparency-and-efficiency
+2.	https://ecosystem.algorand.com/explore?categories=sustainability-initiative
+
+
+
+
+
